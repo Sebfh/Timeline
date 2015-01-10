@@ -1,16 +1,19 @@
 .timeline {
 	position: relative;
+
+
 	> li {
 		list-style: none;
+		border-bottom: 3px solid #cfd9db;
 	}
 	> li:before {
-		position: absolute;
-		left: 0px;
+		position: relative;
 		content: '';
 		width: 20px;
 		height: 20px;
 		display: block;
 		background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
+		float: left;
 	}
 }
 
