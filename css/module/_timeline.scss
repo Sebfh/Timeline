@@ -23,10 +23,24 @@
             width: 20px;
             height: 20px;
             display: block;
-            background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
+            border-radius: 50%;
             float: left;
             left: 0px;
             bottom: -12px;
+            background: $border-color;
+        }
+        &:after {
+            position: relative;
+            content: '';
+            width: 14px;
+            height: 14px;
+            display: block;
+            border-radius: 50%;
+            float: left;
+            left: 0px;
+            bottom: -15px;
+            background: #fff;
+            left: -17px;
         }
 	}
 }
