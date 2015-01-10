@@ -11,24 +11,23 @@
 	> li {
 		list-style: none;
 		display: inline-block;
-		border-bottom: 0.25rem solid #cfd9db;
+		border-bottom: 0.25rem solid $border-color;
 		min-width: 10em;
-
-		.future {
-			border-bottom: dashed;
+        
+		&.future {
+			border-bottom: 0.20rem dotted $border-color;
 		}
-	}
-
-	> li:before {
-		position: relative;
-		content: '';
-		width: 20px;
-		height: 20px;
-		display: block;
-		background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
-		float: left;
-		left: 0px;
-		bottom: -12px;
+        &:before {
+            position: relative;
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
+            float: left;
+            left: 0px;
+            bottom: -12px;
+        }
 	}
 }
 
