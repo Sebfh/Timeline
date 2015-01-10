@@ -15,18 +15,18 @@
 		min-width: 10em;
         
 		&.future {
-			border-bottom: 0.20rem dotted $border-color;
+			border-bottom: 0.25rem dotted $border-color;
 		}
         &:before {
             position: relative;
             content: '';
-            width: 20px;
-            height: 20px;
+            width: 1.25rem;
+            height: 1.25rem;
             display: block;
             border-radius: 50%;
             float: left;
-            left: 0px;
-            bottom: -12px;
+            left: 0.125rem;
+            bottom: -0.725rem;
             background: $border-color;
         }
         &:after {
@@ -40,7 +40,7 @@
             left: 0px;
             bottom: -15px;
             background: #fff;
-            left: -17px;
+            left: -15px;
         }
 	}
 }
