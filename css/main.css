@@ -1,0 +1,1 @@
+.timeline{position:relative}.timeline>li{list-style:none}.timeline>li:before{position:absolute;left:0px;content:'';width:20px;height:20px;display:block;background-image:-webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%)}.timeline-horizontal{width:95%}
